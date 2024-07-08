@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+:root{
+    --fonte-bonita:'Ga Maamli';
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: darkgrey;
+}
+header#cabecalho{
+  /*  background-image: url( ../imagens/OIG4.jpg);
+   /* background-color: aquamarine;*/
+    /*background-repeat: no-repeat;
+    background-size: ;
+    background-position: auto auto;*/
+   /* background-position: center center;*/
+   background-image: url(../imagens/OIG4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+    height: 150px;
+    display: flex; /* Ativa o flexbox */
+    justify-content: space-between; /* Alinha os itens aos extremos do container */
+    align-items: center; /* Centraliza os itens verticalmente */
+    /*border: 1px solid black;*/
+}
+header > h1{
+display: inline-block;
+font-size: 50px;
+}
+
+nav {
+    margin-top: auto;
+    text-align: right;/**Para por o menu a direita*/
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: 1px;
+}
+nav > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid transparent ;
+}
+nav > li > a {
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    padding: 4px;
+}
+nav > li:hover{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid transparent ;
+    background-color: aqua;
+}
+#imagem{
+  /*  background-image: url(../imagens/fundo5.png); /* Substitua pelo caminho correto da sua imagem */
+  /*  background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;*/
+        background-color: whitesmoke;
+        width: 90%; /* Faz com que a div ocupe toda a largura da tela */
+        height: 770px; /* Defina a altura que deseja para sua imagem */
+        margin: auto;
+        font-family: var(--fonte-bonita);
+        color: black;
+        text-align: center;
+        font-size: 80px;
+    
+}
+#imagem > p{
+    margin: auto auto;
+}
+footer{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+}
+footer > p{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+
+
